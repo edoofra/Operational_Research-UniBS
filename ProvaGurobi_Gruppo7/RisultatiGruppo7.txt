@@ -1,0 +1,16 @@
+GRUPPO <7> 
+Componenti: <E. Fratus> <C. Bonomini> 
+
+QUESITO I:
+valore funzione obiettivo = <-28.0>
+soluzione di base ottima: <0,0000> <0,0000> <0,0000> <0,0000> <1,6905> <1,9167> <0,3095> <1,4286> <0,0000> <0,0000> 
+variabili in base: <0> <0> <0> <0> <1> <1> <1> <1> <0> <0> 
+coefficenti di costo ridotto: <7.8> <6.0> <6.0> <9.0> <0.0> <0.0> <0.0> <0.0> <12.0> <11.0> 
+soluzione ottima multipla: no
+soluzione ottima degenere: si
+motivazione: 
+
+QUESITO II: 
+valore funzione obiettivo duale: -28.0
+soluzione di base ottima duale: <-2.0> <-4.0> <0.0> <0.0> <0.0> <0.0> <0.0> <1.2> 
+sensitività: 0.0 <= DELTA <= 1.0E100

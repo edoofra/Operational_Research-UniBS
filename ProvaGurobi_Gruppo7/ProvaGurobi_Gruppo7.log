@@ -1,0 +1,1310 @@
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 11:31:28
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 11:35:35
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 11:44:49
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 11:47:40
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:30:21
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:32:25
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:32:56
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:37:35
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:39:43
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 12:41:11
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 13:33:24
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 13:35:11
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 13:38:25
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 13:59:34
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 14:00:10
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 14:00:51
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 14:10:05
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/02/20 14:38:52
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 11:20:07
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 12:19:54
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 12:21:12
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 12:25:53
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.02 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 12:26:10
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 13:42:31
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 14:12:00
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 14:14:15
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 14:15:12
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3000000e+31   2.375000e+30   2.300000e+01      0s
+       7   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.03 seconds
+Optimal objective -2.800000000e+01
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 14:15:57
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 14:20:10
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 16:33:08
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 16:45:47
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 16:51:30
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 16:52:45
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 16:56:29
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 17:54:51
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+Warning: parameter changes on this environment will not affect existing models.
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/03/20 18:17:22
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 10:44:53
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:01:17
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:40:14
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:41:12
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:43:01
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:44:25
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:50:25
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:51:36
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:52:09
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:52:45
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 11:58:24
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:03:57
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:05:40
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:07:09
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 18 rows, 10 columns and 39 nonzeros
+Model fingerprint: 0xc21c9ae8
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   2.300000e+01      0s
+       4   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:10:07
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:17:54
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/04/20 12:20:49
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:41:46
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:48:10
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:50:09
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:51:01
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:56:21
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:57:01
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/05/20 11:58:47
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/06/20 21:39:41
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/06/20 21:44:46
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/06/20 23:13:02
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/06/20 23:26:47
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:11:13
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:33:12
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:46:54
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:48:47
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:50:59
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
+
+Gurobi 9.0.1 (win64, Java) logging started 05/07/20 17:57:31
+
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 8 rows, 10 columns and 29 nonzeros
+Model fingerprint: 0xcf2def4a
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+01]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   3.900000e+01      0s
+       5   -2.8000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -2.800000000e+01
