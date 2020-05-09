@@ -5,6 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import gurobi.*;
+import gurobi.GRB.DoubleAttr;
+import gurobi.GRB.IntAttr;
 import gurobi.GRB.IntParam;
 
 
@@ -21,6 +23,8 @@ public class Main {
 			env.set(IntParam.Presolve, 0);
 			env.set(IntParam.Method, 0);
 			env.set(GRB.DoubleParam.TimeLimit, 600);
+			env.set(IntParam.PoolSolutions, 2);
+			env.set(IntParam.PoolSearchMode, 2);
 
 			//creazione modello contenente il problema da risolvere 
 			//creazione delle variabili del problema
@@ -35,6 +39,15 @@ public class Main {
 			GRBVar x8 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x8");
 			GRBVar x9 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x9");
 			GRBVar x10 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x10");
+			GRBVar s1 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s1");
+			GRBVar s2 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s2");
+			GRBVar s3 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s3");
+			GRBVar s4 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s4");
+			GRBVar s5 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s5");
+			GRBVar s6 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s6");
+			GRBVar s7 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s7");
+			GRBVar s8 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s8");
+			
 			
 			//costruzione funzione obiettivo
 			GRBLinExpr expr = new GRBLinExpr();
@@ -57,14 +70,16 @@ public class Main {
 			expr.addTerm(2.0, x6);
 			expr.addTerm(7.0, x7);
 			expr.addTerm(2.0, x9);
-			model.addConstr(expr, GRB.LESS_EQUAL, 6.0,"v1");
+			expr.addTerm(1.0, s1);
+			model.addConstr(expr, GRB.EQUAL, 6.0,"v1");
 			
 			//costruzione vincolo 2 e aggiunta al modello
 			expr = new GRBLinExpr();
 			expr.addTerm(-6.0, x7);
 			expr.addTerm(2.0, x8);
 			expr.addTerm(5.0, x10);
-			model.addConstr(expr, GRB.LESS_EQUAL, 1.0,"v2");
+			expr.addTerm(1.0, s2);
+			model.addConstr(expr, GRB.EQUAL, 1.0,"v2");
 			
 			//costruzione vincolo 3 e aggiunta al modello
 			expr = new GRBLinExpr();
@@ -72,7 +87,8 @@ public class Main {
 			expr.addTerm(1.0, x6);
 			expr.addTerm(-6.0, x7);
 			expr.addTerm(-7.0, x9);
-			model.addConstr(expr, GRB.GREATER_EQUAL, -3.0,"v3");
+			expr.addTerm(-1.0, s3);
+			model.addConstr(expr, GRB.EQUAL, -3.0,"v3");
 			
 			//costruzione vincolo 4 e aggiunta al modello
 			expr = new GRBLinExpr();
@@ -80,13 +96,15 @@ public class Main {
 			expr.addTerm(7.0, x8);
 			expr.addTerm(-4.0, x9);
 			expr.addTerm(-3.0, x10);
-			model.addConstr(expr, GRB.LESS_EQUAL, 10.0,"v4");
+			expr.addTerm(1.0, s4);
+			model.addConstr(expr, GRB.EQUAL, 10.0,"v4");
 			
 			//costruzione vincolo 5 e aggiunta al modello
 			expr = new GRBLinExpr();
 			expr.addTerm(-5.0, x7);
 			expr.addTerm(-5.0, x10);
-			model.addConstr(expr, GRB.GREATER_EQUAL, -6.0,"v5");
+			expr.addTerm(-1.0, s5);
+			model.addConstr(expr, GRB.EQUAL, -6.0,"v5");
 			
 			//costruzione vincolo 6 e aggiunta al modello
 			expr = new GRBLinExpr();
@@ -94,7 +112,8 @@ public class Main {
 			expr.addTerm(-13.0, x8);
 			expr.addTerm(1.0, x9);
 			expr.addTerm(-7.0, x10);
-			model.addConstr(expr, GRB.LESS_EQUAL, 5.0,"v6");
+			expr.addTerm(1.0, s6);
+			model.addConstr(expr, GRB.EQUAL, 5.0,"v6");
 			
 			//costruzione vincolo 7 e aggiunta al modello
 			expr = new GRBLinExpr();
@@ -102,14 +121,16 @@ public class Main {
 			expr.addTerm(4.0, x7);
 			expr.addTerm(-4.0, x8);
 			expr.addTerm(-7.0, x9);
-			model.addConstr(expr, GRB.LESS_EQUAL, 3.0,"v7");
+			expr.addTerm(1.0, s7);
+			model.addConstr(expr, GRB.EQUAL, 3.0,"v7");
 			
 			//costruzione vincolo 8 e aggiunta al modello
 			expr = new GRBLinExpr();
 			expr.addTerm(-4.0, x1);
 			expr.addTerm(-5.0, x5);
 			expr.addTerm(-5.0, x7);
-		    model.addConstr(expr, GRB.GREATER_EQUAL, -10.0,"v8");
+			expr.addTerm(-1.0, s8);
+		    model.addConstr(expr, GRB.EQUAL, -10.0,"v8");
 		
 			//avvio ottimizzazione modello
 			model.optimize();		
@@ -148,32 +169,27 @@ public class Main {
 			/***********************************************************************************************************/
 			//QUESITO III
 			
-			double [][] array = {{1,0,0,1,0,2,7,0},{0,0,0,0,0,0,-6,2},{-3,0,0,0,0,1,-6,0},{1,0,0,0,0,0,0,7}, 
-					             {0,0,0,0,0,0,-5,0},{0,0,0,0,0,0,3,3},{0,0,0,0,-6,0,4,-4}, {-4,0,0,0,-5,0,-5,0}};
+			double [][] array = {{0,7,0,0,0,0,0,0}, {0,-6,2,0,0,0,0,0}, {0,-6,0,-1,0,0,0,0}, {0,0,7,0,1,0,0,0},
+								{0,-5,0,0,0,-1,0,0}, {0,3,3,0,0,0,1,0}, {-6,4,-4,0,0,0,0,1}, {-5,-5,0,0,0,0,0,0}};
+			
 			Matrix B = new Matrix(array);
-			double [][] cbt = {{1,6,6,7,-6,-4,4,-8,}};
-			Matrix cbtMatrix = new Matrix(cbt);
-			Matrix B1 = B.inverse();
+			double [][] terminiNoti = {{6},{1},{-3},{10},{-6},{5},{3},{-10}};
+			Matrix term = new Matrix(terminiNoti);
+//			double[][] cbt = {{-6},{4},{-8},{0},{0},{0},{0},{0}};
+//			Matrix CBT = new Matrix(cbt);
+			Matrix newSolution = B.inverse().times(term);			
 			
-			Matrix YT = cbtMatrix.times(B1);
-			StringBuilder soluzioneDualeAssociata = new StringBuilder();
-			for(int i = 0; i<8; i++) {
-				double valore = Math.floor(YT.get(0,i)*10000)/10000;
-				soluzioneDualeAssociata.append(String.format("< %.4f > ", valore));
+			double [][] arrayNewSolution = newSolution.getArray();
+			int [] base = {0,0,0,0,1,0,1,1,0,0,0,0,1,1,1,1,1,0};
+			StringBuilder strNuovoOttimo = new StringBuilder();
+			int j = 0;
+			for(int i=0; i<base.length; i++) {
+				if(base[i] == 1) strNuovoOttimo.append(String.format("< %.4f < ", arrayNewSolution[j++][0]));
+				else  strNuovoOttimo.append(String.format("< %.4f < ", 0.0));
 			}
-			double [][] A = {{1,0,0,1,0,2,7,0,2,0},{0,0,0,0,0,-6,0,2,0,5},{-3,0,0,0,0,1,-6,0,-7,0},{1,0,0,0,0,0,0,7,-4,-3},
-							{0,0,0,0,0,0,-5,0,0-5},{0,0,0,0,0,0,3,3,1,-7},{0,0,0,0,-6,4,-4,-7,0}, {-4,0,0,0,-5,0,-5,0,0,0}};
-			Matrix AMatrix = new Matrix(A);
-			Matrix YTA= YT.times(AMatrix);
 			
-			double[][] ct = {{1,6,6,7,-6,-4,4,-8,8,-9}};
-			Matrix ctMatrix = new Matrix(ct);
-			Matrix YTAMenoCT = YTA.minus(ctMatrix);
-			String rispAmmissibile="Sì";
-			for(int j=0;j<10;j++) {
-				if(YTAMenoCT.get(0, j)>0)
-					rispAmmissibile="No";
-			}
+			
+
 			/***********************************************************************************************************/
 			
 			//creazione file con le risposte
@@ -195,11 +211,12 @@ public class Main {
 				out.write("QUESITO II: \n");
 				out.write("valore funzione obiettivo duale: " + soluzioneDuale + "\n");
 				out.write("soluzione di base ottima duale: "+listaPi+"\n");
-				out.write("sensitività: " + lowerBound + " <= DELTA <= " + upperBound);
+				out.write("sensitività: " + lowerBound + " <= DELTA <= " + upperBound + "\n\n");
 				
 				out.write("QUESITO III: \n");
-				out.write(soluzioneDualeAssociata.toString());
-				out.write(rispAmmissibile);
+				out.write("soluzione ottima alternativa: " + strNuovoOttimo);
+				
+				
 				
 				out.close();
 				

@@ -30,12 +30,6 @@ public class Primale {
 			if(valore == 0) variabiliBase.append("<"+1+"> ");
 			else variabiliBase.append("<"+0+"> ");
 		}	
-		
-//		for(GRBConstr constr : model.getConstrs()) {
-//			double slack = constr.get(GRB.DoubleAttr.Slack);
-//			if(slack != 0) variabiliBase.append("<"+1+"> ");
-//			else variabiliBase.append("<"+0+"> ");
-//		}		
 	}
 	
 	/**
@@ -48,12 +42,7 @@ public class Primale {
 		for(GRBVar var : model.getVars()) {
 			double valore = var.get(DoubleAttr.X);
 			listaOttimo.append(String.format("<%.4f> ", valore));
-		}
-		
-//		for(GRBConstr constr : model.getConstrs()) {
-//			double slack = constr.get(GRB.DoubleAttr.Slack);
-//			listaOttimo.append(String.format("<%.4f> ", slack));	
-//		}		
+		}	
 	}
 	
 	/**
@@ -90,18 +79,12 @@ public class Primale {
 	 */
 	public boolean controlloSoluzioneDegenere() throws GRBException {
 		GRBVar [] listaVar = model.getVars();
-		GRBConstr [] listaVincoli = model.getConstrs();
 		
 		for(int i = 0; i<listaVar.length; i++) {
 			double valore = listaVar[i].get(DoubleAttr.X);
 			int base = listaVar[i].get(IntAttr.VBasis);
 			if(valore == 0 && base == 0) return true;			
 		}
-		
-//		for(int i= 0; i<listaVincoli.length; i++) {
-//			double valore = listaVincoli[i].get(DoubleAttr.Slack);
-//			if(valore <= 0) return true;
-//		}
     	return false;
 	}
 	/**
