@@ -5,8 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import gurobi.*;
-import gurobi.GRB.DoubleAttr;
-import gurobi.GRB.IntAttr;
 import gurobi.GRB.IntParam;
 
 
@@ -23,31 +21,28 @@ public class Main {
 			env.set(IntParam.Presolve, 0);
 			env.set(IntParam.Method, 0);
 			env.set(GRB.DoubleParam.TimeLimit, 600);
-			env.set(IntParam.PoolSolutions, 2);
-			env.set(IntParam.PoolSearchMode, 2);
 
 			//creazione modello contenente il problema da risolvere 
 			//creazione delle variabili del problema
 			GRBModel model = new GRBModel(env);
-			GRBVar x1 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x1");
-			GRBVar x2 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x2");
-			GRBVar x3 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x3");
-			GRBVar x4 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x4");
-			GRBVar x5 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x5");
-			GRBVar x6 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x6");
-			GRBVar x7 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x7");
-			GRBVar x8 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x8");
-			GRBVar x9 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x9");
+			GRBVar x1  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x1" );
+			GRBVar x2  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x2" );
+			GRBVar x3  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x3" );
+			GRBVar x4  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x4" );
+			GRBVar x5  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x5" );
+			GRBVar x6  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x6" );
+			GRBVar x7  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x7" );
+			GRBVar x8  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x8" );
+			GRBVar x9  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x9" );
 			GRBVar x10 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "x10");
-			GRBVar s1 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s1");
-			GRBVar s2 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s2");
-			GRBVar s3 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s3");
-			GRBVar s4 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s4");
-			GRBVar s5 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s5");
-			GRBVar s6 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s6");
-			GRBVar s7 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s7");
-			GRBVar s8 = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s8");
-			
+			GRBVar s1  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s1" );
+			GRBVar s2  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s2" );
+			GRBVar s3  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s3" );
+			GRBVar s4  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s4" );
+			GRBVar s5  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s5" );
+			GRBVar s6  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s6" );
+			GRBVar s7  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s7" );
+			GRBVar s8  = model.addVar(0, GRB.INFINITY, 0, GRB.CONTINUOUS, "s8" );
 			
 			//costruzione funzione obiettivo
 			GRBLinExpr expr = new GRBLinExpr();
@@ -175,8 +170,6 @@ public class Main {
 			Matrix B = new Matrix(array);
 			double [][] terminiNoti = {{6},{1},{-3},{10},{-6},{5},{3},{-10}};
 			Matrix term = new Matrix(terminiNoti);
-//			double[][] cbt = {{-6},{4},{-8},{0},{0},{0},{0},{0}};
-//			Matrix CBT = new Matrix(cbt);
 			Matrix newSolution = B.inverse().times(term);			
 			
 			double [][] arrayNewSolution = newSolution.getArray();
@@ -184,16 +177,14 @@ public class Main {
 			StringBuilder strNuovoOttimo = new StringBuilder();
 			int j = 0;
 			for(int i=0; i<base.length; i++) {
-				if(base[i] == 1) strNuovoOttimo.append(String.format("< %.4f < ", arrayNewSolution[j++][0]));
-				else  strNuovoOttimo.append(String.format("< %.4f < ", 0.0));
+				if(base[i] == 1) strNuovoOttimo.append(String.format("< %.4f > ", arrayNewSolution[j++][0]));
+				else  strNuovoOttimo.append(String.format("< %.4f > ", 0.0));
 			}
-			
-			
 
 			/***********************************************************************************************************/
 			
 			//creazione file con le risposte
-			File fileText = new File("RisultatiGruppo7.txt");
+			File fileText = new File("Risposte-Gruppo7.txt");
 			try {
 				
 				if(!fileText.exists())fileText.createNewFile();
@@ -206,7 +197,8 @@ public class Main {
 				out.write("coefficenti di costo ridotto: " + listaCosti+ "\n");
 				out.write("soluzione ottima multipla: " + soluzioneMultipla +  "\n");
 				out.write("soluzione ottima degenere: " + soluzioneDegenere + "\n");
-				out.write("motivazione: \n\n");
+				out.write("motivazione: la soluzione è multipla poichè è presente una variabile fuori base (x7) con coefficente di costo ridotto = 0 \n"
+						+ "La soluzione non è degenere perchè tutte le variabili in base hanno valore diverso da 0. \n\n");
 				
 				out.write("QUESITO II: \n");
 				out.write("valore funzione obiettivo duale: " + soluzioneDuale + "\n");
@@ -215,9 +207,7 @@ public class Main {
 				
 				out.write("QUESITO III: \n");
 				out.write("soluzione ottima alternativa: " + strNuovoOttimo);
-				
-				
-				
+				out.flush();
 				out.close();
 				
 			} catch (IOException e1) {
@@ -234,12 +224,3 @@ public class Main {
 	}
 }
 
-/*TODO
- * -----------------------------------------aggiungere slack alla soluzione ottima 
- * -----------------------------------------algoritmo soluzione multipla
- * .........................................algoritmo soluzione degenere
- * -----------------------------------------soluzione ottima del duale
- *------------------------------------------sistemare metodi e classi (primale, duale, main e utility)
- * aggiungere slack alla soluzione del duale
- * 
- */

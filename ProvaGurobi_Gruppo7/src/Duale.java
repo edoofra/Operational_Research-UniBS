@@ -14,7 +14,11 @@ public class Duale {
 	public Duale(GRBModel model) {
 		this.model = model;
 	}
-	
+	/**
+	 * metodo per il calcolo del valore ottimo del duale
+	 * @return valore ottimo duale
+	 * @throws GRBException
+	 */
 	public double soluzioneOttima() throws GRBException {
 		double soluzioneDuale = 0.0;
 		int stato = model.get(IntAttr.Status);
@@ -22,6 +26,11 @@ public class Duale {
 		return soluzioneDuale;
 	}
 	
+	/**
+	 * calcolo soluzione ottima duale, ovvero vettore dei prezzi ombra
+	 * @param listaPi StringBuilder contenente i prezzi ombra
+	 * @throws GRBException
+	 */
 	public void prezziOmbra(StringBuilder listaPi) throws GRBException {
 		for(GRBConstr constr : model.getConstrs()) {
 			double pi = constr.get(GRB.DoubleAttr.Pi);
@@ -29,11 +38,23 @@ public class Duale {
 		}
 	}
 	
+	/**
+	 * calcolo lower bound sensitività per una variabile n
+	 * @param n numero variabile nella lista
+	 * @return valore lowerBound
+	 * @throws GRBException
+	 */
 	public double lowerBound(int n) throws GRBException {
 		GRBVar [] listDualVariables = model.getVars();
 		return listDualVariables[n].get(GRB.DoubleAttr.SAObjLow);  	
 	}
 	
+	/**
+	 * calcolo upper bound sensitività per una variabile n
+	 * @param n numero variabile nella lista
+	 * @return valore upperBound
+	 * @throws GRBException
+	 */
 	public double upperBound(int n) throws GRBException {
 		GRBVar [] listDualVariables = model.getVars();
 		return listDualVariables[n].get(GRB.DoubleAttr.SAObjUp);
