@@ -39,7 +39,7 @@ public class Duale {
 	}
 	
 	/**
-	 * calcolo lower bound sensitività per una variabile n
+	 * calcolo lower bound sensitivitï¿½ per una variabile n
 	 * @param n numero variabile nella lista
 	 * @return valore lowerBound
 	 * @throws GRBException
@@ -50,7 +50,7 @@ public class Duale {
 	}
 	
 	/**
-	 * calcolo upper bound sensitività per una variabile n
+	 * calcolo upper bound sensitivitï¿½ per una variabile n
 	 * @param n numero variabile nella lista
 	 * @return valore upperBound
 	 * @throws GRBException
