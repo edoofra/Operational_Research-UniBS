@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class FileUtil {
 
 	private static int[][] tsp = new int[1][1];
-	private static int[][] x = new int[1][1];
 
 	public static void parsing() {				
 		//tsp ha tutti i costi, x ha se esiste un percorso o no 
@@ -20,12 +19,11 @@ public class FileUtil {
 				String data[] = reader.nextLine().split(" ");
 				if (data.length == 2) {
 					//parseInt mi trasforma il carattere contenuto nella substringa in un intero
-					tsp = new int[Integer.parseInt(data[1])][Integer.parseInt(data[1])];
-					x = new int[Integer.parseInt(data[1])][Integer.parseInt(data[1])];
+					Integer matrixDimension = Integer.parseInt(data[1]);
+					tsp = new int[matrixDimension][matrixDimension];
 					for (int i = 0; i < Integer.parseInt(data[1]); i++) {
 						for (int j = 0; j < Integer.parseInt(data[1]); j++) {
 							tsp[i][j] = 0;
-							x[i][j] = 0;
 						}
 					}
 
@@ -35,8 +33,7 @@ public class FileUtil {
 					int len = Integer.parseInt(data[2]);
 					tsp[i][j] = len; //per simm tsp j i = len
 					tsp[j][i]= len;
-					x[j][i]=1;
-					x[i][j] = 1;
+					
 
 				}
 			}
@@ -50,9 +47,7 @@ public class FileUtil {
 	public static int[][] returnTsp(){
 		return tsp;
 	}
-	public static int[][] returnX(){
-		return x;
-	}
+
 
 	public static void writeOnFile(String toWrite){
 		File fileText = new File("Risposte-Gruppo7.txt");

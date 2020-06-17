@@ -1,0 +1,17 @@
+GRUPPO <7> 
+Componenti: <E. Fratus> <C. Bonomini> 
+
+QUESITO I 
+
+ funzione obiettivo = < 30178.0>
+
+QUESITO II 
+
+funzione obiettivo senza SEC, CC o MTZ = < 104.0 >
+sottociclo individuato = [ 3 10  ]
+
+QUESITO III 
+
+funzione obiettivo con MTZ = < 104.0 >
+ciclo ottimo = [ 3 10 3 10  ]
+
