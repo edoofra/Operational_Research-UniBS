@@ -3,15 +3,15 @@ Componenti: <E. Fratus> <C. Bonomini>
 
 QUESITO I 
 
- funzione obiettivo = < 30178.0>
+ funzione obiettivo = < 30177.0>
 
 QUESITO II 
 
 funzione obiettivo senza SEC, CC o MTZ = < 104.0 >
-sottociclo individuato = [ 3 10  ]
+sottociclo individuato = [ 0 1  ]
 
 QUESITO III 
 
-funzione obiettivo con MTZ = < 104.0 >
-ciclo ottimo = [ 3 10 3 10  ]
+funzione obiettivo con MTZ = < 110.0 >
+ciclo ottimo = [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47  ]
 

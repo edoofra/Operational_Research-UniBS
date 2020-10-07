@@ -2,7 +2,8 @@ import gurobi.*;
 import gurobi.GRB.*;
 
 /**
- * classe per la soluzione del problema MMKP
+ * @author E.Fratus, C.Bonomini
+ * class for solving the MMKP problem
  * (multidimensional multiple-choice knapsack problem)
  */
 public class MmkpProblem {   
@@ -16,30 +17,34 @@ public class MmkpProblem {
     private double GAP = 0.0;
 
     /**
-     * metodo per la creazione del modello, il suo preprocessing e la sua risoluzione
+     * creation of the model, preprocessing and resolution
      * @throws GRBException
      */
     public void resolveMMKP() throws GRBException {
 
            env = new GRBEnv();
            setEnvParam();
+           //create model from the file
            model = new GRBModel(env, FILEPATH);
            fixing();
            model.presolve();
            model.optimize(); 
            finalValue = model.get(DoubleAttr.ObjVal);
-           model.dispose();
-           env.dispose();  
     }
     
+    /**
+     * preprocessing method with variable fixing
+     * @throws GRBException
+     */
     private void fixing() throws GRBException {
+        //create the relaxed model with PL problem
     	relaxed =  model.relax();
     	relaxed.optimize();
-    	//cercato
+        //if the cj of a variable is lower than the GAP
+        //sets the value of the variable to 0
     	GAP =30188 - relaxed.get(GRB.DoubleAttr.ObjVal);
     	for(GRBVar x : relaxed.getVars()) {
     		if(x.get(DoubleAttr.X)==0) {
-    			//controllo se costo ridotto è minore del gap
     			if(x.get(GRB.DoubleAttr.RC)<GAP)
         			model.getVarByName(x.get(StringAttr.VarName)).set(DoubleAttr.UB, 0);
     		}	
@@ -47,7 +52,7 @@ public class MmkpProblem {
     }
 
     /**
-     * metodo per il settaggio dei parametri dell'environment
+     * set the environment parameters
      * @throws GRBException
      */
     private  void setEnvParam() throws GRBException {
@@ -59,7 +64,20 @@ public class MmkpProblem {
         env.set(GRB.DoubleParam.Heuristics, 0.7);
     }
 
+    /**
+     * 
+     * @return value of objective function
+     */
     public double getFinalValue() {
         return finalValue;
     }
+    
+    /**
+     * dispose model and environment
+     * @throws GRBException
+     */
+    public void dispose() throws GRBException {
+		model.dispose();
+		env.dispose();
+	}
 }
